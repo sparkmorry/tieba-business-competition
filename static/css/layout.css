@@ -1,0 +1,333 @@
+#p2 .to-go-wrapper-fade, #p3 .to-go-wrapper-fade, 
+#p4 .to-go-wrapper-fade, #p5 .to-go-wrapper-fade{
+	position: absolute;
+	bottom: 7px;
+}
+
+#planet-loading{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: -33px;
+}
+#loading-text{
+  margin-top: -40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 14px;
+}
+
+#titles{
+	position: absolute;
+	top: 5%;
+  	left: 50%;
+  	margin-left: -115px;
+}
+.i-circle-in, .i-circle-out{
+	position: absolute;
+}
+.i-circle-in{
+	top: 9px;
+  left: 9px;
+}
+#bd-title{
+	/*margin: auto;*/
+	color: #4d4d4d;
+	font-size: 45px;
+	text-align: justify;
+	margin-top: 40px;
+    margin-left: 5px;
+}
+
+#bd-sub-title{
+	color: white;
+	font-size: 20px;
+	margin: auto;
+}
+#secret{
+  text-align: left;
+  font-size: 12px;
+  color: #4c5b61;
+  /* width: 200px; */
+  position: absolute;
+  bottom: 42%;
+  left: 6%;
+}
+#planet{
+	position: absolute;
+	top: 15%;
+	right: 4%;
+}
+#tangsen{
+	position: absolute;
+	bottom: 10px;	
+	left: 8%;
+}
+.i-to-go {
+	margin-left: 3px;
+}
+.to-go{
+	margin: 0;
+    margin-bottom: 10px;
+	font-size: 16px;
+	color: #252525;
+}
+#to-go-wrapper{
+  width: 40px;
+  color: #252525;
+  /* line-height: 20px; */
+  position: absolute;
+  right: 19%;
+  bottom: 7px;	
+}
+
+
+/*p2*/
+#waimai-text1{
+	text-align: left;
+	/*font-size: 14px;*/
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	font-weight: 700;
+	line-height: 17px
+}
+#waimai-text2{
+	position: absolute;
+	right: 10px;
+	top: 37%;
+	font-weight: 700;
+	line-height: 17px;
+	width: 190px;
+}
+#bajie-dialog{
+	position: absolute;
+	width: 200px;
+	top: 25%;
+	left: 3%;
+}
+#bajie-dialog .dialog{
+	position: absolute;
+	top: 8px;
+}
+#bajie-dialog .icon{
+	position: absolute;
+	top: 0px;
+	right: 7px;
+}
+#gaolaozhuang-dialog{
+	position: absolute;
+	width: 200px;
+	top: 54%;
+	left: 54%;
+}
+#gaolaozhuang-dialog .dialog{
+	position: absolute;
+	top: 0px;
+}
+#gaolaozhuang-dialog .icon{
+	position: absolute;
+	top: 20px;
+	left: 7px;
+}
+.i-pie-chart{
+  position: absolute;
+  bottom: 23.3%;
+  margin-bottom: -58px;
+  right: 8.1%;
+}
+#zhongkouwei{
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	position: absolute;
+	bottom: 15px;
+	right: 35px;
+}
+/*p3*/
+#modi-text1{
+  position: absolute;
+  width: 200px;
+  right: 2px;
+  top: 20px;
+}
+#modi-text2{
+  position: absolute;
+  width: 230px;
+  left: 10px;
+  top: 47%;
+}
+#modi-text3{
+  position: absolute;
+  width: 230px;
+  right: 10px;
+  bottom: 10px;
+}
+#modi-analyze{
+	position: absolute;	  
+	left: 0px;
+	top: 25px;
+	-webkit-animation-fill-mode: both;
+	-webkit-transform:translate3d(0,0,0);
+	-webkit-perspective: 1000;
+}
+#modi-analyze .icon{
+	-webkit-animation-fill-mode: both;
+	-webkit-transform:translate3d(0,0,0);
+	-webkit-perspective: 1000;
+}
+#modi-analyze li{
+	float: right;
+	border-radius: 50%;
+	color: white;
+  	text-align: center;
+  	padding-top: 10px;
+  	position: relative;
+}
+#baigujing-dialog{
+	position: absolute;
+	width: 200px;
+	top: 34%;
+	left: 60%;
+}
+#baigujing-dialog .dialog{
+	position: absolute;
+	top: 0px;
+}
+#baigujing-dialog .icon{
+	position: absolute;
+	top: 20px;
+	left: 57px;
+}
+#girl-dialogs li{
+	float: left;
+}
+#girl-dialogs{
+  position: absolute;
+  left: -40px;
+  top: -40px;
+}
+/*p4*/
+#pp-text1{
+  /*width: 220px;*/
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+#pp-text2{
+  /*width: 200px;*/
+  position: absolute;
+  right: 10px;
+  top: 100px;
+}
+#pp-text3{
+  /*width: 180px;*/
+  position: absolute;
+  left: 10px;
+  bottom: 30px;
+}
+#nverguo-dialog{
+	position: absolute;
+	width: 180px;
+	top: 36%;
+	left: 38%;
+}
+#nverguo-dialog .dialog{
+	position: absolute;
+	top: 0px;
+}
+#nverguo-dialog .icon{
+	position: absolute;
+	top: 34px;
+	left: 7px;
+}
+
+/*p5*/
+#mobile-text1{
+  width: 160px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+#mobile-text1 .icon{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#mobile-text2{
+  width: 160px;
+  position: absolute;
+  bottom: 28%;
+  right: 10px;
+}
+
+#pansidong-dialog{
+  position: absolute;
+  width: 120px;
+  top: 12%;
+  left: 58%;
+  text-align: justify;
+}
+#pansidong-dialog .dialog{
+	position: absolute;
+	top: 0px;
+}
+#pansidong-dialog .icon{
+	position: absolute;
+	top: 32px;
+	left: 27px;
+}
+
+/*p6*/
+.zhenjing{
+	background:url('bg/baodian.png');
+	background-size: 238px;
+	  width: 240px;
+	  height: 325px;
+	  /* margin: auto; */
+	  position: absolute;
+	  top: 40%;
+	  margin-top: -162px;
+	  left: 50%;
+	  margin-left: -120px;
+}
+.i-cover{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -27px;
+}
+
+.t-zhenjing{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -122px;
+  margin-left: -73px;
+}
+.btns{
+  width: 218px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -109px;
+}
+.xitian-dialog{
+  position: absolute;
+  bottom: 26%;
+  right: 10px;
+  width: 120px;
+}
+
+.xitian-dialog .dialog{
+  position: absolute;
+	top: 10px;
+}
+
+.xitian-dialog .icon{
+  position: absolute;
+  top: 0px;
+  left: 30px;
+}

@@ -1,0 +1,260 @@
+.icon{
+	background: url('icons/icons1.png');
+	display: inline-block;
+	background-size: 500px 600px;
+}
+.icon2{
+	background: url('icons/icon2.png');
+	display: inline-block;
+	background-size: 500px 600px;
+}
+.i-planet-loading{
+	width: 115px;
+	height: 67px;
+	background-position: -345px -185px;
+}
+.i-planet{
+	width: 80px;
+	height: 45px;
+	background-position: 0 0;
+}
+.i-circle-in{ 
+  width: 211px;
+  height: 211px;
+  background-position: -8px -2px;
+}
+.i-circle-out{
+  width: 229px;
+  height: 229px;
+  background-position: -2px -220px;
+}
+
+.i-tangsen{
+  width: 170px;
+  height: 155px;
+  background-position: 0 -58px;
+}
+.i-to-go{
+	width: 20px;
+	height: 36px;
+	background-position: 0 -220px;
+}
+.i-cow{
+	width: 120px;
+	height: 15px;
+	background-position: 0 -255px;
+}
+
+.i-girls{
+	width: 140px;
+	height: 50px;
+	background-position: 0 -278px;
+}
+.i-cow{
+	width: 120px;
+	height: 15px;
+	background-position: 0 -255px;
+}
+.i-girls-big{
+	width: 225px;
+	height: 70px;
+	background-position: 0 -330px;
+}
+.i-pie-chart{
+	width: 250px;
+	height: 115px;
+	background-position: 0px -434px;	
+}
+.i-chart{
+	width: 110px;
+	height: 45px;
+	background-position: -85px 0px;
+}
+.i-at-home{
+	width: 140px;
+	height: 50px;
+	background-position: -180px -55px;
+}
+.i-on-bus{
+  width: 140px;
+  height: 55px;
+  background-position: -180px -106px;
+}
+.i-in-restaurant{
+	width: 140px;
+	height: 52px;
+	background-position: -180px -160px;
+}
+.i-arrow-top-right{
+	width: 10px;
+	height: 10px;
+	background-position: 0 -410px;
+}
+.i-arrow-bottom-left{
+	width: 10px;
+	height: 10px;
+	background-position: -11px -410px;
+}
+.i-arrow-middle{
+	width: 10px;
+	height: 10px;
+	background-position: -22px -410px;
+}
+.i-arrow-bottom-right{
+	width: 10px;
+	height: 10px;
+	background-position: -32px -410px;
+}
+
+.i-arrow-top-left{
+	width: 10px;
+	height: 10px;
+	background-position: -43px -410px;
+}
+.i-arrow-bottom-right-blue{
+	width: 10px;
+	height: 10px;
+	background-position: -57px -410px;
+}
+
+.i-arrow-bottom-left-blue{
+	width: 10px;
+	height: 10px;
+	background-position: -70px -410px;
+}
+.i-girl1{
+	width: 70px;
+	height: 45px;
+	background-position: 0px -556px;	
+}
+.i-girl2{
+	width: 68px;
+	height: 45px;
+	background-position: -74px -556px;	
+}
+.i-girl3{
+	width: 58px;
+	height: 45px;
+	background-position: -146px -556px;	
+}
+.i-girl4{
+  width: 40px;
+  height: 45px;
+  background-position: -205px -556px;	
+}
+.i-modi1{
+	width: 48px;
+	height: 48px;
+	background-position: -265px -525px;
+}
+.i-modi2{
+	width: 55px;
+	height: 55px;
+	background-position: -314px -518px;
+}
+.i-modi3{
+	width: 60px;
+	height: 60px;
+	background-position: -371px -515px;
+}
+
+
+.i-cover{
+	width: 55px;
+	height: 165px;
+	background-position: -340px -2px;
+}
+
+.i-btn1{
+	width: 219px;
+	height: 39px;
+	background-position: -264px -432px;
+}
+.i-btn2{
+	width: 219px;
+	height: 39px;
+	background-position: -264px -471px;
+}
+
+/*文字部分*/
+.text{	
+	background: url('icons/text.png');
+	display: inline-block;
+	background-size: 500px 600px;
+}
+.t-db{
+	width: 225px;
+	height: 123px;
+	background-position: 0 0;
+}
+.t-db-sub{
+	width: 225px;
+	height: 40px;
+	background-position: 0 -123px;
+}
+.t-tangsen{
+	width: 150px;
+	height: 27px;
+	background-position: 0 -165px;
+}
+.t-waimai1{
+	width: 138px;
+	height: 110px;
+	background-position: 0 -195px;
+}
+.t-waimai2{
+	width: 162px;
+	height: 78px;
+	background-position: 0 -305px;
+}
+.t-waimai3{
+	width: 155px;
+	height: 20px;
+	background-position: 0 -390px;
+}
+
+.t-modi1{
+	width: 150px;
+	/*height: 100px;*/
+	height: 50px;
+	background-position: 0 -412px;
+}
+.t-modi2{
+	width: 150px;
+	height: 32px;
+	background-position: 0 -512px;
+}
+
+
+.t-pp1{
+	width: 227px;
+	height: 63px;
+	background-position: -173px -200px;
+}
+.t-pp2{
+	width: 227px;
+	height: 73px;
+	background-position: -173px -275px;
+}
+.t-pp3{
+	width: 170px;
+	height: 140px;
+	background-position: -173px -355px;
+}
+
+.t-mobile1{
+	width: 145px;
+	height: 45px;
+	background-position: -183px -507px;
+}
+.t-mobile2{
+	width: 165px;
+	height: 55px;
+	background-position: -0 -545px;
+}
+
+.t-zhenjing{
+  width: 147px;
+  height: 245px;
+  background-position: -351px -349px;
+}
