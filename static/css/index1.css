@@ -136,8 +136,10 @@ animation-delay:11s;
     #p1, #p2, #p3, #p4, #p5, #p6{
     	background-repeat: no-repeat;
     	background-position:center;
-        -webkit-background-size: auto 100%;
-        background-size: auto 100%; 
+        -webkit-background-size: cover;
+        background-size: cover;
+        /*-webkit-background-size: auto 100%;*/
+        /*background-size: auto 100%; */
     }
     #p0{
     	background: #d9d9d9;

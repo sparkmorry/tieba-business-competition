@@ -1,50 +1,54 @@
 .icon{
 	background: url('icons/icons1.png');
 	display: inline-block;
-	background-size: 500px 600px;
+	/*background-size: 500px 600px;*/
 }
 .icon2{
 	background: url('icons/icon2.png');
 	display: inline-block;
-	background-size: 500px 600px;
+	/*background-size: 500px 600px;*/
 }
 .i-planet-loading{
-	width: 115px;
-	height: 67px;
-	background-position: -345px -185px;
+	width: 230px;
+	height: 134px;
+	background-position: -690px -370px;
 }
 .i-planet{
-	width: 80px;
-	height: 45px;
+	width: 160px;
+	height: 90px;
 	background-position: 0 0;
 }
 .i-circle-in{ 
-  width: 211px;
-  height: 211px;
-  background-position: -8px -2px;
+  width: 422px;
+  height: 422px;
+  background-position: -16px -4px;
 }
 .i-circle-out{
-  width: 229px;
-  height: 229px;
-  background-position: -2px -220px;
+  width: 458px;
+  height: 458px;
+  background-position: -4px -440px;
 }
 
 .i-tangsen{
-  width: 170px;
-  height: 155px;
-  background-position: 0 -58px;
+  width: 340px;
+  height: 310px;
+  background-position: 0 -116px;
 }
 .i-to-go{
-	width: 20px;
-	height: 36px;
-	background-position: 0 -220px;
+	width: 40px;
+	height: 72px;
+	background-position: 0 -440px;
 }
 .i-cow{
-	width: 120px;
-	height: 15px;
-	background-position: 0 -255px;
+	width: 240px;
+	height: 30px;
+	background-position: 0 -510px;
 }
-
+.i-pie-chart{
+	width: 500px;
+	height: 230px;
+	background-position: 0px -868px;	
+}
 .i-girls{
 	width: 140px;
 	height: 50px;
@@ -60,11 +64,7 @@
 	height: 70px;
 	background-position: 0 -330px;
 }
-.i-pie-chart{
-	width: 250px;
-	height: 115px;
-	background-position: 0px -434px;	
-}
+
 .i-chart{
 	width: 110px;
 	height: 45px;
@@ -86,28 +86,28 @@
 	background-position: -180px -160px;
 }
 .i-arrow-top-right{
-	width: 10px;
-	height: 10px;
-	background-position: 0 -410px;
+	width: 20px;
+	height: 20px;
+	background-position: 0 -820px;
 }
 .i-arrow-bottom-left{
-	width: 10px;
-	height: 10px;
-	background-position: -11px -410px;
+	width: 20px;
+	height: 20px;
+	background-position: -22px -820px;
 }
 .i-arrow-middle{
-	width: 10px;
-	height: 10px;
-	background-position: -22px -410px;
+	width: 20px;
+	height: 20px;
+	background-position: -44px -820px;
 }
 .i-arrow-bottom-right{
-	width: 10px;
-	height: 10px;
-	background-position: -32px -410px;
+	width: 20px;
+	height: 20px;
+	background-position: -64px -820px;
 }
 
 .i-arrow-top-left{
-	width: 10px;
+	width: 20px;
 	height: 10px;
 	background-position: -43px -410px;
 }
@@ -180,37 +180,37 @@
 .text{	
 	background: url('icons/text.png');
 	display: inline-block;
-	background-size: 500px 600px;
+	/*background-size: 500px 600px;*/
 }
 .t-db{
-	width: 225px;
-	height: 123px;
+	width: 450px;
+	height: 246px;
 	background-position: 0 0;
 }
 .t-db-sub{
-	width: 225px;
-	height: 40px;
-	background-position: 0 -123px;
+	width: 450px;
+	height: 80px;
+	background-position: 0 -246px;
 }
 .t-tangsen{
-	width: 150px;
-	height: 27px;
-	background-position: 0 -165px;
+	width: 300px;
+	height: 54px;
+	background-position: 0 -330px;
 }
 .t-waimai1{
-	width: 138px;
-	height: 110px;
-	background-position: 0 -195px;
+	width: 276px;
+	height: 220px;
+	background-position: 0 -390px;
 }
 .t-waimai2{
-	width: 162px;
-	height: 78px;
-	background-position: 0 -305px;
+	width: 324px;
+	height: 156px;
+	background-position: 0 -610px;
 }
 .t-waimai3{
-	width: 155px;
-	height: 20px;
-	background-position: 0 -390px;
+	width: 310px;
+	height: 40px;
+	background-position: 0 -780px;
 }
 
 .t-modi1{
