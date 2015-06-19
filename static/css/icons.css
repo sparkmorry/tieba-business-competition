@@ -50,9 +50,9 @@
 	background-position: 0px -868px;	
 }
 .i-girls{
-	width: 140px;
-	height: 50px;
-	background-position: 0 -278px;
+  width: 280px;
+  height: 100px;
+  background-position: 0 -556px;
 }
 .i-cow{
 	width: 120px;
@@ -60,9 +60,9 @@
 	background-position: 0 -255px;
 }
 .i-girls-big{
-	width: 225px;
-	height: 70px;
-	background-position: 0 -330px;
+	width: 450px;
+	height: 140px;
+	background-position: 0 -660px;
 }
 
 .i-chart{
@@ -89,31 +89,40 @@
 	width: 20px;
 	height: 20px;
 	background-position: 0 -820px;
+	opacity: 0.6;
+
 }
 .i-arrow-bottom-left{
 	width: 20px;
 	height: 20px;
 	background-position: -22px -820px;
+	opacity: 0.6;
+
 }
 .i-arrow-middle{
 	width: 20px;
 	height: 20px;
 	background-position: -44px -820px;
+	opacity: 0.6;
+
 }
 .i-arrow-bottom-right{
 	width: 20px;
 	height: 20px;
 	background-position: -64px -820px;
+	opacity: 0.6;
 }
 
 .i-arrow-top-left{
 	width: 20px;
 	height: 10px;
+	opacity: 0.6;
 	background-position: -43px -410px;
 }
 .i-arrow-bottom-right-blue{
 	width: 10px;
 	height: 10px;
+	opacity: 0.6;
 	background-position: -57px -410px;
 }
 
@@ -143,19 +152,19 @@
   background-position: -205px -556px;	
 }
 .i-modi1{
-	width: 48px;
-	height: 48px;
-	background-position: -265px -525px;
+	width: 96px;
+	height: 96px;
+	background-position: -530px -1050px;
 }
 .i-modi2{
-	width: 55px;
-	height: 55px;
-	background-position: -314px -518px;
+	width: 110px;
+	height: 110px;
+	background-position: -628px -1036px;
 }
 .i-modi3{
-	width: 60px;
-	height: 60px;
-	background-position: -371px -515px;
+	width: 120px;
+	height: 120px;
+	background-position: -742px -1030px;
 }
 
 
@@ -214,15 +223,15 @@
 }
 
 .t-modi1{
-	width: 150px;
+	width: 300px;
 	/*height: 100px;*/
-	height: 50px;
-	background-position: 0 -412px;
+	height: 100px;
+	background-position: 0 -824px;
 }
 .t-modi2{
-	width: 150px;
-	height: 32px;
-	background-position: 0 -512px;
+  width: 300px;
+  height: 64px;
+  background-position: 0 -1024px;
 }
 
 

@@ -40,22 +40,35 @@ function p1removeAnimate(){
 	$("#to-go-wrapper").removeClass('fadeIn animated delay3');	
 }
 function p2Animate(){
-	$('#waimai-text1').addClass('fadeIn animated delay0_1');
-	$('#bajie-dialog').addClass('fadeIn animated delay1_1');
-	$('#waimai-text2').addClass('fadeIn animated delay2_1');
-	$('#gaolaozhuang-dialog').addClass('fadeIn animated delay3_1');
-	$("#waimai-chart").addClass('fadeIn animated delay4_1');
-	$('#zhongkouwei').addClass('fadeIn animated delay5_1');
-	$('#p2 .to-go-wrapper-fade').addClass('fadeIn animated delay6');
+	setTimeout(function(){
+		var times = 1;
+		var timer = setInterval(function(){
+			if(times >8){
+				clearInterval(timer);
+				return;
+			}
+			var p = '0 ' + -200*times + 'px';
+			$('#xiangcai').css({'background-position': p});
+			times++;
+		}, 80);	
+	}, 1000);
+
+	$('#waimai-text1').addClass('fadeIn animated delay1');
+	$('#bajie-dialog').addClass('fadeIn animated delay2');
+	$('#waimai-text2').addClass('fadeIn animated delay4');
+	$('#gaolaozhuang-dialog').addClass('fadeIn animated delay6');
+	$("#waimai-chart").addClass('fadeIn animated delay7');
+	$('#zhongkouwei').addClass('fadeIn animated delay8');
+	$('#p2 .to-go-wrapper-fade').addClass('fadeIn animated delay9');
 }
 function p2RemoveAnimate(){
-	$('#waimai-text1').removeClass('fadeIn animated delay0_1');
-	$('#bajie-dialog').removeClass('fadeIn animated delay1');
-	$('#waimai-text2').removeClass('fadeIn animated delay2');
-	$('#gaolaozhuang-dialog').removeClass('fadeIn animated delay3');
-	$("#waimai-chart").removeClass('fadeIn animated delay4');
-	$('#zhongkouwei').removeClass('fadeIn animated delay5');
-	$('#p2 .to-go-wrapper-fade').removeClass('fadeIn animated delay6');
+	$('#waimai-text1').removeClass('fadeIn animated delay1');
+	$('#bajie-dialog').removeClass('fadeIn animated delay2');
+	$('#waimai-text2').removeClass('fadeIn animated delay4');
+	$('#gaolaozhuang-dialog').removeClass('fadeIn animated delay6');
+	$("#waimai-chart").removeClass('fadeIn animated delay7');
+	$('#zhongkouwei').removeClass('fadeIn animated delay8');
+	$('#p2 .to-go-wrapper-fade').removeClass('fadeIn animated delay9');
 }
 function p3Animate(){
 	$('.t-modi1').addClass('fadeIn animated delay0_1');
