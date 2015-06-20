@@ -159,7 +159,7 @@
   position: absolute;
   width: 460px;
   left: 40px;
-  top: 49%;
+  top: 480px;
 }
 #modi-text3{
   position: absolute;
@@ -168,12 +168,12 @@
   bottom: 10px;
 }
 #modi-analyze{
-	position: absolute;	  
-	left: 0px;
-	top: 25px;
-	-webkit-animation-fill-mode: both;
-	-webkit-transform:translate3d(0,0,0);
-	-webkit-perspective: 1000;
+  position: absolute;
+  left: -20px;
+  top: 50px;	
+  -webkit-animation-fill-mode: both;
+  -webkit-transform:translate3d(0,0,0);
+  -webkit-perspective: 1000;
 }
 #modi-analyze .icon{
 	-webkit-animation-fill-mode: both;
@@ -213,27 +213,27 @@
 }
 /*p4*/
 #pp-text1{
-  /*width: 220px;*/
+  width: 440px;
   position: absolute;
-  right: 10px;
-  top: 20px;
+  right: 30px;
+  top: 40px;
 }
 
 #pp-text2{
-  /*width: 200px;*/
+  width: 400px;
   position: absolute;
-  right: 10px;
-  top: 100px;
+  right: 30px;
+  top: 200px;
 }
 #pp-text3{
   /*width: 180px;*/
   position: absolute;
-  left: 10px;
-  bottom: 30px;
+  left: 20px;
+  bottom: 90px;
 }
 #nverguo-dialog{
 	position: absolute;
-	width: 180px;
+	width: 360px;
 	top: 36%;
 	left: 38%;
 }
@@ -243,31 +243,31 @@
 }
 #nverguo-dialog .icon{
 	position: absolute;
-	top: 34px;
-	left: 7px;
+	top: 64px;
+	left: 14px;
 }
 
 /*p5*/
 #mobile-text1{
-  width: 160px;
+  width: 320px;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 80px;
+  left: 60px;
 }
 #mobile-text1 .icon{
 	margin-top: 10px;
 	margin-left: 15px;
 }
 #mobile-text2{
-  width: 160px;
+  width: 320px;
   position: absolute;
   bottom: 28%;
-  right: 10px;
+  right: 20px;
 }
 
 #pansidong-dialog{
   position: absolute;
-  width: 120px;
+  width: 240px;
   top: 12%;
   left: 58%;
   text-align: justify;
@@ -278,8 +278,8 @@
 }
 #pansidong-dialog .icon{
 	position: absolute;
-	top: 32px;
-	left: 27px;
+	top: 64px;
+	left: 54px;
 }
 
 /*p6*/
