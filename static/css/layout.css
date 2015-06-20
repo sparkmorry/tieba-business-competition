@@ -65,21 +65,20 @@
 	left: 8%;
 }
 .i-to-go {
-	margin-left: 3px;
+	margin-left: 12px;
 }
 .to-go{
 	margin: 0;
     margin-bottom: 10px;
-	font-size: 16px;
+	font-size: 32px;
 	color: #252525;
 }
 #to-go-wrapper{
-  width: 40px;
+  width: 80px;
   color: #252525;
-  /* line-height: 20px; */
   position: absolute;
-  right: 158px;
-  bottom: 7px;	
+  right: 128px;
+  bottom: 7px;
 }
 
 
@@ -285,44 +284,42 @@
 
 /*p6*/
 .zhenjing{
-	background:url('bg/baodian.png');
-	background-size: 238px;
-	  width: 240px;
-	  height: 325px;
-	  /* margin: auto; */
-	  position: absolute;
-	  top: 40%;
-	  margin-top: -162px;
-	  left: 50%;
-	  margin-left: -120px;
+  background: url('bg/baodian.png');
+  width: 476px;
+  height: 650px;
+  position: absolute;
+  top: 40%;
+  margin-top: -324px;
+  left: 50%;
+  margin-left: -240px;
 }
 .i-cover{
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -80px;
-  margin-left: -27px;
+  margin-top: -165px;
+  margin-left: -55px;
 }
 
 .t-zhenjing{
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -122px;
-  margin-left: -73px;
+  margin-top: -250px;
+  margin-left: -155px;
 }
 .btns{
-  width: 218px;
+  width: 536px;
   position: absolute;
-  bottom: 10px;
+  bottom: 60px;
   left: 50%;
-  margin-left: -109px;
+  margin-left: -218px;
 }
 .xitian-dialog{
   position: absolute;
-  bottom: 26%;
-  right: 10px;
-  width: 120px;
+  bottom: 28%;
+  right: 40px;
+  width: 240px;
 }
 
 .xitian-dialog .dialog{
@@ -332,6 +329,6 @@
 
 .xitian-dialog .icon{
   position: absolute;
-  top: 0px;
+  top: -9px;
   left: 30px;
 }

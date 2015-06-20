@@ -165,7 +165,24 @@ function goThrough(){
 	}else if(current == 'p1'){	
 		// 组织p2	
 		p1removeAnimate();
-		p2Animate();
+		// p2Animate();
+		var jQs1 = $('<img src="static/images/p2/s1.gif" id="s1" style="width:100%">');
+		var jQs2 = $('<img src="static/images/p2/s2.gif" id="s2" style="width:100%;">');
+		var jQs3 = $('<img src="static/images/p2/s3.gif" id="s3" style="width:100%;">');
+		var jQs4 = $('<img src="static/images/p2/s4.gif" id="s4" style="width:100%;">');
+		$('#p2').append(jQs1);
+		setTimeout(function(){
+			$('#s1').hide();
+			$('#p2').append(jQs3);
+			setTimeout(function(){
+				$('#s3').hide();
+				$('#p2').append(jQs2);
+				setTimeout(function(){
+					$('#s2').hide();	
+					$('#p2').append(jQs4);
+				}, 2200)
+			}, 4000); //等文字出现完全
+		}, 1400);
 	}else if(current == 'p2'){
 		// 消除p2动画
 		p2RemoveAnimate();

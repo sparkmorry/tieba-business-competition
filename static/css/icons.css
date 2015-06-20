@@ -114,11 +114,12 @@
 }
 
 .i-arrow-top-left{
-	width: 20px;
-	height: 10px;
-	opacity: 0.6;
-	background-position: -43px -410px;
+  width: 20px;
+  height: 20px;
+  opacity: 0.6;
+  background-position: -86px -820px;
 }
+
 .i-arrow-bottom-right-blue{
 	width: 10px;
 	height: 10px;
@@ -169,20 +170,20 @@
 
 
 .i-cover{
-	width: 55px;
-	height: 165px;
-	background-position: -340px -2px;
+	width: 110px;
+	height: 330px;
+	background-position: -680px -4px;
 }
 
 .i-btn1{
-	width: 219px;
-	height: 39px;
-	background-position: -264px -432px;
+	width: 438px;
+	height: 78px;
+	background-position: -528px -864px;
 }
 .i-btn2{
-	width: 219px;
-	height: 39px;
-	background-position: -264px -471px;
+	width: 438px;
+	height: 78px;
+	background-position: -528px -942px;
 }
 
 /*文字部分*/
@@ -262,8 +263,8 @@
 	background-position: -0 -545px;
 }
 
-.t-zhenjing{
-  width: 147px;
-  height: 245px;
-  background-position: -351px -349px;
+.t-zhenjing {
+  width: 300px;
+  height: 500px;
+  background-position: -692px -698px;
 }
