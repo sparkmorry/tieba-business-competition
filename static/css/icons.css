@@ -71,19 +71,19 @@
 	background-position: -85px 0px;
 }
 .i-at-home{
-	width: 140px;
-	height: 50px;
-	background-position: -180px -55px;
+	width: 280px;
+	height: 100px;
+	background-position: -360px -110px;
 }
 .i-on-bus{
-  width: 140px;
-  height: 55px;
-  background-position: -180px -106px;
+  width: 280px;
+  height: 110px;
+  background-position: -360px -212px;
 }
 .i-in-restaurant{
-	width: 140px;
-	height: 52px;
-	background-position: -180px -160px;
+	width: 280px;
+	height: 104px;
+	background-position: -360px -320px;
 }
 .i-arrow-top-right{
 	width: 20px;
@@ -184,6 +184,69 @@
 	width: 438px;
 	height: 78px;
 	background-position: -528px -942px;
+}
+
+/*人物和建筑*/
+.i-character{
+	background: url('icons/icon3.png');
+	display: inline-block;
+}
+
+.i-gaolaozhuang-tag{
+	background-position: 0 0;
+	width: 45px;
+	height: 105px;
+}
+.i-baigudong-tag{
+	background-position: -66px 0;
+	width: 51px;
+	height: 118px;
+}
+.i-nverguo-tag{
+	background-position: -140px 0;
+	width: 48px;
+	height: 105px;
+}
+.i-pansidong-tag{
+	background-position: -218px 0;
+	width: 64px;
+	height: 135px;
+}
+.i-gaolaozhuang{
+	background-position: 0 -207px;
+	height: 147px;
+	width: 300px;
+}
+.i-baogudong{
+	background-position: 0 -397px;
+	height: 200px;
+	width: 345px;
+}
+.i-nverguo{
+	background-position: 0 -628px;
+	height: 272px;
+	width: 252px;
+}
+.i-pansidong{
+	background-position: 0 -943px;
+	height: 225px;
+	width: 380px;
+}
+.i-nverguowang{
+	background-position: -435 -559px;
+	height: 274px;
+	width: 165px;
+}
+
+.i-bajie{
+	width: 187px;
+	height: 230px;
+	background-position: -421px -9px;
+}
+.i-bajie-hand{
+	width: 63px;
+	height: 75px;
+	background-position: -666px -15px;
 }
 
 /*文字部分*/

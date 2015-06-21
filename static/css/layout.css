@@ -1,3 +1,24 @@
+.music-status {
+  position: fixed;
+  height: 60px;
+  width: 60px;
+  right: 20px;
+  top: 20px;
+  background: transparent url("icons/on.png") no-repeat left top;
+  z-index: 9999;
+}
+.music-status-on {
+  -webkit-animation: music 1s 0s linear infinite both;
+  animation: music 1s 0s linear infinite both;
+}
+.music-status {
+  background-size: auto 100% !important;
+}
+.m_off {
+  background: transparent url("icons/off.png") no-repeat left top!important;
+  background-size: auto 100%!important;
+}
+
 #p2 .to-go-wrapper-fade, #p3 .to-go-wrapper-fade, 
 #p4 .to-go-wrapper-fade, #p5 .to-go-wrapper-fade{
 	position: absolute;
@@ -93,6 +114,54 @@
 	left: 260px;
 	top: 117px;
 }
+/*#gaolaozhuang{
+  position: absolute;
+  z-index: 300;
+  height: 240px;
+  width: 300px;
+  left: 46px;
+  top: 432px;
+}*/
+#gaolaozhuang{
+  position: absolute;
+  z-index: 300;
+  height: 300px;
+  width: 400px;
+  left: 0px;
+  top: 393px;  
+  background: url(animation/gaolaozhuang1.png);
+  background-position:0 0;    
+  display: none;
+
+}
+.i-gaolaozhuang-tag{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -23px;
+}
+.i-gaolaozhuang{
+	position: absolute;
+	bottom: 0;
+}
+
+#bajie{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+/*	top: 90px;
+	left: 400px;*/
+  top: 50px;
+  left: 350px;
+  background: url(animation/gaobajie1.png);
+  background-position:0 0;    
+  display: none;
+}
+.i-bajie-hand{
+  position: absolute;
+  left: 10px;
+  top: 80px;
+}
 #waimai-text1{
 	text-align: left;
 	/*font-size: 14px;*/
@@ -135,6 +204,25 @@
 	top: 40px;
 	left: 14px;
 }
+#pie-chart{
+	height:250px;
+	width:640px;
+	background:url(animation/bing.png);
+	background-position:0 0;  
+	position: absolute;
+	top: 650px;
+	display: none;
+}
+#gaobing{
+	height:250px;
+	width:640px;
+	background:url(animation/gaobing1.png);
+	background-position:0 0;  
+	position: absolute;
+	top: 650px;
+	display: none;
+}
+
 .i-pie-chart{
   position: absolute;
   bottom: 120px;
@@ -211,7 +299,70 @@
   left: -40px;
   top: -40px;
 }
+
+#baishuju{
+	background: url(animation/bshuju.png);
+	height:400px;
+	width:640px;
+	background-position:0 0;  
+	position: absolute;
+  top: 660px;
+  left: 40px;
+	  display: none;
+}
+#baigudong{
+	background: url(animation/bbaigudong.png);
+	height:400px;
+	width:400px;
+	background-position:0 0;  
+	position: absolute;
+  top: 67px;
+  left: 20px;	  
+  display: none;
+}
+#baigujing{
+	background: url(animation/bbaigujing.png);
+	height:350px;
+	width:250px;
+	background-position:0 0;  
+	position: absolute;
+  top: 360px;
+  left: 400px;
+	  display: none;
+}
+
 /*p4*/
+#nvguowang{
+	background: url(animation/nvguowang.png);
+	height:300px;
+	width:200px;
+	background-position:0 0;  
+	position: absolute;
+	top: 330px;
+	left: 80px;
+	display: none;
+}
+#nverguo{
+	background: url(animation/nverguo.png);
+	height:450px;
+	width:300px;
+	background-position:0 0;  
+	position: absolute;
+	  top: 460px;
+	  left: 320px;	
+	  display: none;
+}
+#nvshuju{
+	background: url(animation/nvshuju.png);
+	height:200px;
+	width:250px;
+	background-position:0 0;  
+	position: absolute;
+  top: 660px;
+  left: 70px;
+	  display: none;
+}
+
 #pp-text1{
   width: 440px;
   position: absolute;
@@ -280,6 +431,27 @@
 	position: absolute;
 	top: 64px;
 	left: 54px;
+}
+#pansidong{
+	background: url(animation/ppansidong.png);
+	height:400px;
+	width:450px;
+	background-position:0 0;  
+	position: absolute;
+  	top: 550px;
+  	left: 0px;
+	display: none;
+}
+
+#zhizhujing{
+	background: url(animation/pzhizhujing.png);
+	height:400px;
+	width:400px;
+	background-position:0 0;  
+	position: absolute;
+  top: 150px;
+  left: 300px;
+	display: none;
 }
 
 /*p6*/

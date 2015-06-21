@@ -355,7 +355,8 @@
     -moz-transform: translate(0, 5px);
     -ms-transform: translate(0, 5px);
     -o-transform: translate(0, 5px);
-    transform: translate(0, 5px); } }
+    transform: translate(0, 5px); } 
+}
 @-moz-keyframes downup-five {
   0% {
     opacity: 0.3;
@@ -444,4 +445,34 @@
     -ms-transform: translate(0, 5px);
     -o-transform: translate(0, 5px);
     transform: translate(0, 5px); } 
+}
+
+/*height grown*/
+@-webkit-keyframes heightBounce {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: center bottom;
+    -webkit-transform: scaleY(0);
+  }
+  70% {
+    opacity: 1;
+    -webkit-transform-origin: center bottom;
+    -webkit-transform: scaleY(0.9);  
+  }
+  80% {
+    -webkit-transform-origin: center bottom;
+    -webkit-transform: scaleY(1.2);
+  } 
+  80% {
+    -webkit-transform-origin: center bottom;
+    -webkit-transform: scaleY(0.9);
+  } 
+  90% {
+    -webkit-transform-origin: center bottom;
+    -webkit-transform: scaleY(1.2);
+  } 
+  100% {
+    -webkit-transform-origin: center bottom;
+    -webkit-transform: scaleY(1);
+  } 
 }

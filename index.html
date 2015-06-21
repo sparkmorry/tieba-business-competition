@@ -102,7 +102,8 @@
 	</style>
 </head>
 <body>
-	<img src="static/images/baodian.png" style="display:none">
+	<div id="audio_pan" class="music-status music-status-on"></div>
+	<img src="static/images/p3/bai4.gif" style="display:none">
 	<div class="swiper-container">
 	    <!-- Additional required wrapper -->
 	    <div class="swiper-wrapper">
@@ -130,7 +131,19 @@
 	        </div>
 	        
  			<div class="swiper-slide m1" id="p2">
-	        	<div id="waimai-text1">
+<!--  				<div id="gaolaozhuang">
+ 					<div class="i-character i-gaolaozhuang"></div>
+ 					<div class="i-character i-gaolaozhuang-tag"></div>
+ 				</div> -->
+<!--  				<div id="bajie">
+ 					<div class="i-character i-bajie"></div>
+ 					<div class="i-character i-bajie-hand"></div>
+ 				</div>
+ -->	        
+ 				<div id="gaolaozhuang"></div>
+ 				<div id="bajie"></div>
+ 				<div id="gaobing"></div>
+ 				<div id="waimai-text1">
 	        		<i class="text t-waimai1"></i>
 	        	</div>
 	        	<div id="bajie-dialog">
@@ -144,12 +157,17 @@
 	        		<div class="dialog">八戒，尼玛喊你回家吃饭</div>
 	        		<i class="icon i-arrow-bottom-left"></i>
 	        	</div>
+	        	<i id="zhongkouwei" class="text t-waimai3"></i>
+	        	<!-- <div id="pie-chart" style=""></div> -->
 	        <div class="to-go-wrapper-fade" style="left:95px">	
 	        	  <i class="icon i-to-go upsidedown-fade"></i>
 	        	</div>
 	        </div>
 	        
  			<div class="swiper-slide m1" id="p3">
+ 				<div id="baigudong"></div>
+ 				<div id="baigujing"></div>
+ 				<div id="baishuju"></div>
  				<div id="modi-text1">
  					<i class="text t-modi1"></i>
  					<i class="icon i-girls"></i>
@@ -182,6 +200,10 @@
  			</div>
 
  			<div class="swiper-slide m1" id="p4">
+ 				<div id="nvguowang"></div>
+ 				<div id="nverguo"></div>
+ 				<div id="nvshuju"></div>
+
  				<div id="pp-text1">
  					<i class="text t-pp1"></i>		
  				</div>
@@ -201,11 +223,14 @@
 				</div>
  			</div>
  			<div class="swiper-slide m1" id="p5">
+ 				<div id="pansidong"></div> 	
+ 				<div id="zhizhujing"></div> 				
+
  				<div id="mobile-text1">
  					<i class="text t-mobile1"></i>		
-<!--  					<p> <i class="icon i-at-home"></i> </p>
+ 					<p> <i class="icon i-at-home"></i> </p>
  					<p> <i class="icon i-on-bus"></i> </p>
-					<p> <i class="icon i-in-restaurant"></i> </p> -->
+					<p> <i class="icon i-in-restaurant"></i> </p>
  				</div>
  				 <div id="pansidong-dialog">
  					<div class="dialog">你们不上网会难过，姐不上网会挨饿。</div>
@@ -236,7 +261,7 @@
 
 	    </div>
 	</div>
-	<!-- <audio id='audio1' src="static/media/bg_music.mp3" autoplay="autoplay" loop class="audio"></audio> -->
+	<audio id='audio1' src="http://7xjv0c.com1.z0.glb.clouddn.com/bg_music.mp3" autoplay="autoplay" loop class="audio"></audio>
 
 	<script type="text/javascript" src="static/js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="static/js/swiper.jquery.min.js"></script>

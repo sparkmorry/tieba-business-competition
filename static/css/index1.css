@@ -13,6 +13,19 @@
 	animation: updownup-five 1s linear infinite;
 }
 
+.music-status {
+background-size: auto 100% !important;
+}
+
+@-webkit-keyframes music{100%{-webkit-transform:rotate(360deg)}}
+
+@keyframes music{100%{transform:rotate(360deg)}}
+.heightBounce{
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+
+    -webkit-animation: heightBounce 0.5s linear 1;    
+}
 .animated0_3{
 	-webkit-animation-duration: 0.3s;
 		animation-duration: 0.3s;
@@ -149,33 +162,33 @@ animation-delay:11s;
     	background-image: url('bg/p1.jpg');
     }
     #p2{
-    	background-image: url('bg/p2.jpg'), -webkit-gradient(linear, left top, left bottom, from(#31ccc0), to(#2897ca)); 
-    	background-image: url('bg/p2.jpg'), -webkit-linear-gradient(to bottom, #31ccc0, #2897ca);
-    	background-image: url('bg/p2.jpg'), -moz-linear-gradient(to bottom, #31ccc0, #2897ca);    	
-    	background-image: url('bg/p2.jpg'), linear-gradient(to bottom, #31ccc0, #2897ca);
-    	background-image: url('bg/p2.jpg'), -o-linear-gradient(to bottom, #31ccc0, #2897ca);    	
+    	background-image: url('bg/transparent/p2.png'), -webkit-gradient(linear, left top, left bottom, from(#31ccc0), to(#2897ca)); 
+    	background-image: url('bg/transparent/p2.png'), -webkit-linear-gradient(to bottom, #31ccc0, #2897ca);
+    	background-image: url('bg/transparent/p2.png'), -moz-linear-gradient(to bottom, #31ccc0, #2897ca);    	
+    	background-image: url('bg/transparent/p2.png'), linear-gradient(to bottom, #31ccc0, #2897ca);
+    	background-image: url('bg/transparent/p2.png'), -o-linear-gradient(to bottom, #31ccc0, #2897ca);    	
     }    
     #p3{
-    	background-image: url('bg/p3.jpg'), -webkit-gradient(linear, left top, left bottom, from(#3493d0), to(#c179f4)); 
-    	background-image: url('bg/p3.jpg'), -webkit-linear-gradient(to bottom, #3493d0, #c179f4);
-    	background-image: url('bg/p3.jpg'), -moz-linear-gradient(to bottom, #3493d0, #c179f4);    	
-    	background-image: url('bg/p3.jpg'), linear-gradient(to bottom, #3493d0, #c179f4);
-    	background-image: url('bg/p3.jpg'), -o-linear-gradient(to bottom, #3493d0, #c179f4);    	    	
+    	background-image: url('bg/transparent/p3.png'), -webkit-gradient(linear, left top, left bottom, from(#3493d0), to(#c179f4)); 
+    	background-image: url('bg/transparent/p3.png'), -webkit-linear-gradient(to bottom, #3493d0, #c179f4);
+    	background-image: url('bg/transparent/p3.png'), -moz-linear-gradient(to bottom, #3493d0, #c179f4);    	
+    	background-image: url('bg/transparent/p3.png'), linear-gradient(to bottom, #3493d0, #c179f4);
+    	background-image: url('bg/transparent/p3.png'), -o-linear-gradient(to bottom, #3493d0, #c179f4);    	    	
 /*    	background-image: url('static/css/bg/p3.jpg'), linear-gradient(to bottom, #3493d0, #c179f4);*/
 	}
     #p4{
-    	background-image: url('bg/p4.jpg'), -webkit-gradient(linear, left top, left bottom, from(#ca73e7), to(#f04b3e)); 
-    	background-image: url('bg/p4.jpg'), -webkit-linear-gradient(to bottom, #ca73e7, #f04b3e);
-    	background-image: url('bg/p4.jpg'), -moz-linear-gradient(to bottom, #ca73e7, #f04b3e);    	
-    	background-image: url('bg/p4.jpg'), linear-gradient(to bottom, #ca73e7, #f04b3e);
-    	background-image: url('bg/p4.jpg'), -o-linear-gradient(to bottom, #ca73e7, #f04b3e);    	    	
+    	background-image: url('bg/transparent/p4.png'), -webkit-gradient(linear, left top, left bottom, from(#ca73e7), to(#f04b3e)); 
+    	background-image: url('bg/transparent/p4.png'), -webkit-linear-gradient(to bottom, #ca73e7, #f04b3e);
+    	background-image: url('bg/transparent/p4.png'), -moz-linear-gradient(to bottom, #ca73e7, #f04b3e);    	
+    	background-image: url('bg/transparent/p4.png'), linear-gradient(to bottom, #ca73e7, #f04b3e);
+    	background-image: url('bg/transparent/p4.png'), -o-linear-gradient(to bottom, #ca73e7, #f04b3e);    	    	
     }
     #p5{
-    	background-image: url('bg/p5.jpg'), -webkit-gradient(linear, left top, left bottom, from(#f14f3a), to(#f1973a)); 
-    	background-image: url('bg/p5.jpg'), -webkit-linear-gradient(to bottom, #f14f3a, #f1973a);
-    	background-image: url('bg/p5.jpg'), -moz-linear-gradient(to bottom, #f14f3a, #f1973a);    	
-    	background-image: url('bg/p5.jpg'), linear-gradient(to bottom, #f14f3a, #f1973a);
-    	background-image: url('bg/p5.jpg'), -o-linear-gradient(to bottom, #f14f3a, #f1973a);    	    	    	
+    	background-image: url('bg/transparent/p5.png'), -webkit-gradient(linear, left top, left bottom, from(#f14f3a), to(#f1973a)); 
+    	background-image: url('bg/transparent/p5.png'), -webkit-linear-gradient(to bottom, #f14f3a, #f1973a);
+    	background-image: url('bg/transparent/p5.png'), -moz-linear-gradient(to bottom, #f14f3a, #f1973a);    	
+    	background-image: url('bg/transparent/p5.png'), linear-gradient(to bottom, #f14f3a, #f1973a);
+    	background-image: url('bg/transparent/p5.png'), -o-linear-gradient(to bottom, #f14f3a, #f1973a);    	    	    	
     	/*background-image: url('static/css/bg/p5.jpg'), linear-gradient(to bottom, #f14f3a, #f1973a);*/
     }    
     #p6{
