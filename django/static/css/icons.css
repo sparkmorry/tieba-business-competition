@@ -133,24 +133,24 @@
 	background-position: -70px -410px;
 }
 .i-girl1{
-	width: 70px;
-	height: 45px;
-	background-position: 0px -556px;	
+	width: 140px;
+	height: 90px;
+	background-position: 0px -1112px;	
 }
 .i-girl2{
-	width: 68px;
-	height: 45px;
-	background-position: -74px -556px;	
+  width: 130px;
+  height: 90px;
+  background-position: -148px -1112px;
 }
 .i-girl3{
-	width: 58px;
-	height: 45px;
-	background-position: -146px -556px;	
+	width: 116px;
+	height: 90px;
+	background-position: -292px -1112px;	
 }
 .i-girl4{
-  width: 40px;
-  height: 45px;
-  background-position: -205px -556px;	
+  width: 80px;
+  height: 90px;
+  background-position: -410px -1112px;	
 }
 .i-modi1{
 	width: 96px;
@@ -290,6 +290,17 @@
 	height: 156px;
 	background-position: 0 -610px;
 }
+.t-pie{
+  width: 215px;
+  height: 190px;
+  background-position: -994px 0;
+}
+.t-kouwei{
+  width: 461px;
+  height: 90px;
+  background-position: -944px -371px;
+}
+
 .t-waimai3{
 	width: 310px;
 	height: 40px;
@@ -337,7 +348,27 @@
 }
 
 .t-zhenjing {
-  width: 300px;
-  height: 500px;
-  background-position: -692px -698px;
+	width: 340px;
+  height: 530px;
+  background-position: -1458px -1575px;
+}
+.t-title1{
+  width: 230px;
+  height: 80px;
+  background-position: -1458px 0;	
+}
+.t-title2{
+  width: 230px;
+  height: 80px;
+  background-position: -1458px -90px;	
+}
+.t-title3{
+  width: 230px;
+  height: 83px;
+  background-position: -1458px -188px;	
+}
+.t-title4{
+  width: 230px;
+  height: 80px;
+  background-position: -1458px -280px;	
 }

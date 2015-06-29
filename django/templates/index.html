@@ -124,18 +124,11 @@
 	        </div>
 	        
  			<div class="swiper-slide m1" id="p2">
-<!--  				<div id="gaolaozhuang">
- 					<div class="i-character i-gaolaozhuang"></div>
- 					<div class="i-character i-gaolaozhuang-tag"></div>
- 				</div> -->
-<!--  				<div id="bajie">
- 					<div class="i-character i-bajie"></div>
- 					<div class="i-character i-bajie-hand"></div>
- 				</div>
- -->	        
  				<div id="gaolaozhuang"></div>
  				<div id="bajie"></div>
- 				<div id="gaobing"></div>
+				<i class="text t-kouwei"></i>
+				<i class="text t-pie"></i>
+ 				<!-- <div id="gaobing"></div> -->
  				<div id="waimai-text1">
 	        		<i class="text t-waimai1"></i>
 	        	</div>
@@ -151,6 +144,8 @@
 	        		<i class="icon i-arrow-bottom-left"></i>
 	        	</div>
 	        	<i id="zhongkouwei" class="text t-waimai3"></i>
+	        	<canvas id="gaobing" style="width:600px;height:600px" width="600" height="600"></canvas>
+
 	        	<!-- <div id="pie-chart" style=""></div> -->
 	        <div class="to-go-wrapper-fade" style="left:95px">	
 	        	  <i class="icon i-to-go upsidedown-fade"></i>
@@ -160,7 +155,7 @@
  			<div class="swiper-slide m1" id="p3">
  				<div id="baigudong"></div>
  				<div id="baigujing"></div>
- 				<div id="baishuju"></div>
+ 				<!-- <div id="baishuju"></div> -->
  				<div id="modi-text1">
  					<i class="text t-modi1"></i>
  					<i class="icon i-girls"></i>
@@ -185,6 +180,13 @@
  							<i class="icon i-modi3"></i> 						
  						</li>
  					</ul>
+ 				</div>
+ 				<div id="modi-text3">
+ 					<i class="icon i-girl1"></i>
+ 					<i class="icon i-girl2"></i>
+ 					<i class="icon i-girl3"></i>
+ 					<i class="icon i-girl4"></i>
+ 					<i class="icon i-girls-big"></i>
  				</div>
  				<div class="to-go-wrapper-fade" style="left:95px">	
 	        		<i class="icon i-to-go upsidedown-fade"></i>
@@ -239,16 +241,24 @@
  				<div class="zhenjing">
  					<i class="icon i-cover"></i>
  					<i class="text t-zhenjing"></i>
+ 					<i class="text t-title1"></i>
+ 					<i class="text t-title2"></i>
+ 					<i class="text t-title3"></i>
+ 					<i class="text t-title4"></i>
  				</div>
  				<div class="btns">
  					<p><i class="icon i-btn1"></i></p>
- 					<p><i class="icon i-btn2"></i></p>
+ 					<p><i id="j-share" class="icon i-btn2"></i></p>
  				</div>
  				<div class="xitian-dialog">
  					<div class="dialog">商业挑战, 不妨一试?</div>
 	        		<i class="icon i-arrow-top-left"></i>
  				</div>
- 			</div> 			
+ 			 	<div class="share" id="j-share-mask">
+ 					<img src="static/images/share.png" style="width:100%">
+ 				</div>		
+
+ 			</div> 	
  			<img src="static/images/p3/bai4.gif" style="height:0px">
 	    </div>
 	</div>
@@ -257,9 +267,32 @@
 	<script type="text/javascript" src="static/js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="static/js/swiper.jquery.min.js"></script>
 	<script type="text/javascript" src="static/js/touch.js"></script>
-	<script type="text/javascript" src="static/js/index.js"></script>
-
+	<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 	<script type="text/javascript">
+		wx.config({
+		    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+		    appId: 'wx69a1f910a2c01361', // 必填，公众号的唯一标识
+		    timestamp: '{{ jsticket.timestamp }}', // 必填，生成签名的时间戳
+		    nonceStr: '{{ jsticket.nonceStr }}', // 必填，生成签名的随机串
+		    signature: '{{ sig }}',// 必填，签名，见附录1
+		    jsApiList: ['onMenuShareAppMessage'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+		});
+		wx.onMenuShareAppMessage({		    
+			title: '西游新记－趣味互联网大数据带你降妖除魔', // 分享标题
+		    link: 'http://ssld-vi.com/', // 分享链接
+		    imgUrl: 'http://morry.oss-cn-beijing.aliyuncs.com/tieba/images/cover.jpg', // 分享图标
+		    desc: '吧啦啦啦啊'
+		    success: function () { 
+		        // 用户确认分享后执行的回调函数
+		    },
+		    cancel: function () { 
+		        // 用户取消分享后执行的回调函数
+		    }
+		});
+		$.post('/share', {}, function(){
+			alert('send!')
+		})
 	</script>
+	<script type="text/javascript" src="static/js/index.js"></script>
 </body>
 </html>

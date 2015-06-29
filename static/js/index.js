@@ -12,18 +12,7 @@ $('body').bind('touchmove',function(event){
 var second = 0, loading=true;
 var secondNum = $("#loading-num");
 $(window).load(function(){
-	var timer = setInterval(function(){
-		second++;
-		if(second>100){
-			loading=false;
-			p1Animate();
-			swiper.slideNext();
-			second = 0;
-			clearInterval(timer);
-			return;
-		}
-		secondNum.text(second);
-	}, 40);
+	p1Animate();
 });
 var audio0 = document.getElementById("audio1");
 audio0.play();
@@ -113,14 +102,16 @@ function p1removeAnimate(){
 function p2Animate(){
 	keyframeAnimation('#gaolaozhuang', 300, 16, 45, 1100);
 	keyframeAnimation('#bajie', 300, 32, 45, 500);
-	keyframeAnimation('#gaobing', 250, 48, 42, 4500);
+	keyframeAnimation('#gaobing', 250, 48, 42, 3800);
+	// keyframeAnimation('#gaobing', 640, 47, 42, 4500);
+
 	// keyframeAnimation('#pie-chart', 250, 12, 50, 5000);
 	$('.i-gaolaozhuang-tag').addClass('bounceIn animated delay1');
 	$('.i-gaolaozhuang').addClass('bounceInUp animated delay0_1');
 	$('#waimai-text1').addClass('fadeIn animated delay1');
 	$('#bajie-dialog').addClass('fadeIn animated delay2');
 	$('#waimai-text2').addClass('fadeIn animated delay3');
-	$('#gaolaozhuang-dialog').addClass('zoomIn animated delay4');
+	$('#gaolaozhuang-dialog').addClass('zoomIn animated delay3_1');
 	$('#zhongkouwei').addClass('bounceInRight animated delay7');
 	$('#p2 .to-go-wrapper-fade').addClass('fadeIn animated delay7_1');
 }
@@ -134,16 +125,16 @@ function p2RemoveAnimate(){
 	$('#waimai-text1').removeClass('fadeIn animated delay1');
 	$('#bajie-dialog').removeClass('fadeIn animated delay2');
 	$('#waimai-text2').removeClass('fadeIn animated delay3');
-	$('#gaolaozhuang-dialog').removeClass('zoomIn animated delay4');
+	$('#gaolaozhuang-dialog').removeClass('zoomIn animated delay3_1');
 	$('#zhongkouwei').removeClass('bounceInRight animated delay7');
 	$('#p2 .to-go-wrapper-fade').removeClass('fadeIn animated delay7_1');
 	p2complete = false;
 
 }
 function p3Animate(){
-	keyframeAnimation('#baigudong', 400, 16, 45, 300);
-	keyframeAnimation('#baigujing', 350, 24, 45, 1100);
-	keyframeAnimation('#baishuju', 400, 24, 45, 4500);
+	keyframeAnimation('#baigudong', 400, 16, 45, 600);
+	keyframeAnimation('#baigujing', 350, 24, 45, 1200);
+	keyframeAnimation('#baishuju', 400, 24, 45, 3800);
 
 	$('.t-modi1').addClass('fadeIn animated delay1');
 	$('.i-girls').addClass('bounceInDown animated0_5 delay1_1');

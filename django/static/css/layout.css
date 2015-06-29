@@ -25,18 +25,23 @@
 	bottom: 7px;
 }
 
+#p0{
+  background: url(bg/loading.jpg);
+}
 #planet-loading{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -120px;
-	margin-top: -66px;
+/*	margin-left: -120px;
+	margin-top: -66px;*/
+  margin-left: -35px;
 }
 #loading-text{
-  margin-top: -83px;
+margin-top: -83px;
   text-align: center;
-  font-size: 32px;
-  line-height: 34px;
+  font-size: 40px;
+  line-height: 42px;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 #titles{
@@ -94,6 +99,7 @@
     margin-bottom: 10px;
 	font-size: 32px;
 	color: #252525;
+  margin-left: 2px;
 }
 #to-go-wrapper{
   width: 80px;
@@ -145,7 +151,11 @@
 	position: absolute;
 	bottom: 0;
 }
-
+.t-kouwei{
+  position: absolute;
+  top: 725px;
+  left: 60px;
+}
 #bajie{
 	width: 300px;
 	height: 300px;
@@ -202,7 +212,7 @@
 }
 #gaolaozhuang-dialog .icon{
 	position: absolute;
-	top: 40px;
+	top: 42px;
 	left: 14px;
 }
 #pie-chart{
@@ -214,22 +224,37 @@
 	top: 650px;
 	display: none;
 }
+.triangle { /* You'll want this to be a block level element */
+  width: 0px; height: 0px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: black;
+}
 #gaobing{
-	height:250px;
-	/*height: 640px;*/
-	width:640px;
-	background:url(animation/gaobing1.png);
-	/*background:url(animation/gaobing640.png);*/
-	background-position:0 0;  
-	position: absolute;
-	top: 650px;
-	display: none;
+  /* height: 250px; */
+  height: 600px;
+  width: 600px;
+  /* background: url(animation/gaobing1.png); */
+  /* background: url(animation/gaobing640.png); */
+  /* background-position: 0 0; */
+  position: absolute;
+  top: 470px;
+  left: 180px;
+  z-index: 100;
+   /*display: none; */
 }
 
 .i-pie-chart{
   position: absolute;
   bottom: 120px;
   right: 50px;
+}
+.t-pie{
+  position: absolute;
+  top: 700px;
+  left: 360px;  
+  z-index: 1000;
 }
 #zhongkouwei{
 	color: white;
@@ -254,10 +279,15 @@
 }
 #modi-text3{
   position: absolute;
+  left: 100px;
+  top: 760px;
+}
+/*#modi-text3{
+  position: absolute;
   width: 230px;
   right: 10px;
   bottom: 10px;
-}
+}*/
 #modi-analyze{
   position: absolute;
   left: -20px;
@@ -291,7 +321,7 @@
 }
 #baigujing-dialog .icon{
 	position: absolute;
-	top: 40px;
+	top: 41px;
 	left: 114px;
 }
 #girl-dialogs li{
@@ -334,9 +364,14 @@
 	  display: none;
 }
 
+.i-girls-big{
+	position: relative;
+	left: 75px;
+}
+
 /*p4*/
 #nvguowang{
-	background: url(animation/nvguowang.png);
+	background: url(animation/nvguowang2.png);
 	height:300px;
 	width:200px;
 	background-position:0 0;  
@@ -397,7 +432,7 @@
 }
 #nverguo-dialog .icon{
 	position: absolute;
-	top: 64px;
+	top: 67px;
 	left: 14px;
 }
 
@@ -432,7 +467,7 @@
 }
 #pansidong-dialog .icon{
 	position: absolute;
-	top: 64px;
+	top: 68px;
 	left: 54px;
 }
 #pansidong{
@@ -480,8 +515,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -250px;
-  margin-left: -155px;
+  margin-top: -265px;
+  margin-left: -165px;
 }
 .btns{
   width: 536px;
@@ -504,6 +539,36 @@
 
 .xitian-dialog .icon{
   position: absolute;
-  top: -9px;
+  top: -10px;
   left: 30px;
+}
+.t-title1{
+  position: absolute;
+  top: 120px;
+}
+
+.t-title2{
+  position: absolute;
+  top: 120px;
+  left: 260px;
+}
+.t-title3{
+  position: absolute;
+  top: 450px;
+  left: 260px;
+}
+
+.t-title4{
+  position: absolute;
+  top: 450px;
+  left: 0px;
+}
+
+.share{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
 }
