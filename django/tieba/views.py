@@ -91,3 +91,8 @@ def home(request):
 	print sig	
 	# return render_to_response('index.html')
 	return render_to_response('index.html', {'jsticket' : tick, 'sig': sig})
+
+
+def tab1(request):
+	return render_to_response('tab1.html')
+

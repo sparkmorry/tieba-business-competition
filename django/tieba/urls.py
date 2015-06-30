@@ -8,6 +8,8 @@ urlpatterns = patterns('',
     url(r'^$', 'tieba.views.home', name='home'),
     url(r'^share/$', 'tieba.views.share', name='share'),
     url(r'^send/$', 'tieba.views.send', name='send'),
+    url(r'^tab1/$', 'tieba.views.tab1', name='tab1'),
+
 
     # url(r'^blog/', include('blog.urls')),
 
